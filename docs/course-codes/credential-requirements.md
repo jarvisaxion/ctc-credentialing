@@ -4,9 +4,13 @@ This document provides a structured breakdown of the **credential requirements**
 
 The data is derived from the CTC's "Appropriate Credentials for CALPADS Course Codes" table (`raw/calpads-course-codes.csv`).
 
+> **Source:** CTC "Appropriate Credentials for CALPADS Course Codes" — https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/ (raw: `raw/calpads-course-codes.csv`, `raw/calpads-course-codes-data.txt`). Downloaded 2026-08-28.
+
 ---
 
 ## General Education / Self-Contained
+
+> **Source:** `raw/calpads-course-codes.csv` (course code `1000`).
 
 | Course Code | Course Title | Required Credential |
 |-------------|--------------|---------------------|
@@ -15,6 +19,8 @@ The data is derived from the CTC's "Appropriate Credentials for CALPADS Course C
 ---
 
 ## Career Technical Education (CTE) — By Industry Sector
+
+> **Source:** `raw/calpads-course-codes.csv` (CTE course codes `7000`+); Title 5 §80004(c) flexibility per CTC assignment resources.
 
 CTE courses are authorized by a **CTE credential in the relevant industry sector**. Many also allow a related **Single Subject** credential at the employing agency's discretion (Title 5 §80004(c)).
 
@@ -35,6 +41,9 @@ CTE courses are authorized by a **CTE credential in the relevant industry sector
 - **Also authorized (discretionary):** Single Subject: Home Economics
 
 ### Other CTE Sectors
+
+> **Source:** `raw/calpads-course-codes.csv` (CTE course codes `7000`+).
+
 - **Business and Finance:** CTE: Business and Finance
 - **Health Science and Medical Technology:** CTE: Health Science and Medical Technology
 - **Information and Communication Technology:** CTE: Information and Communication Technology
@@ -50,6 +59,8 @@ CTE courses are authorized by a **CTE credential in the relevant industry sector
 ---
 
 ## Departmentalized Academic Subjects
+
+> **Source:** `raw/calpads-course-codes.csv` (academic course codes); CTC authorization statements for Single Subject credentials.
 
 Academic courses are authorized by the corresponding **Single Subject** credential.
 
@@ -73,6 +84,8 @@ Academic courses are authorized by the corresponding **Single Subject** credenti
 
 ## Special Education
 
+> **Source:** `raw/calpads-course-codes.csv` (special education course codes); CTC Authorization Sort Table (`raw/auth-sort-data.txt`).
+
 Special education courses are authorized by **Education Specialist** credentials.
 
 | Broad Subject | Required Credential |
@@ -83,6 +96,8 @@ Special education courses are authorized by **Education Specialist** credentials
 ---
 
 ## Electives & Other
+
+> **Source:** `raw/calpads-course-codes.csv` (elective/other course codes).
 
 | Broad Subject | Required Credential |
 |---------------|---------------------|
@@ -96,6 +111,8 @@ Special education courses are authorized by **Education Specialist** credentials
 
 ## Important Notes
 
+> **Source:** CTC "Appropriate Credentials for CALPADS Course Codes" — https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/; CTC assignment resources (Title 5 §80004(c)).
+
 1. **"Full Authorization"** means the credential listed fully authorizes teaching the course — the teacher is properly credentialed.
 2. **Title 5 §80004(c) flexibility** — for many CTE courses, a related Single Subject credential may be used at the **employing agency's discretion**. This is not automatic; the district must choose to apply it.
 3. **Self-contained vs. departmentalized** — course code `1000` (self-contained) requires Multiple Subject; departmentalized academic courses require Single Subject.
@@ -105,4 +122,15 @@ Special education courses are authorized by **Education Specialist** credentials
 
 ## Full Machine-Readable Data
 
+> **Source:** `data/calpads-course-codes.csv` (parsed from `raw/calpads-course-codes.csv`).
+
 See `data/calpads-course-codes.csv` for the complete table of all 681 course codes with their credential requirements.
+
+---
+
+## Sources
+
+- CTC Appropriate Credentials for CALPADS Course Codes: https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/
+- CTC Credential Type and Authorization Statements: https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/
+- CTC Assignment Resources: https://www.ctc.ca.gov/employers/assignment-resources/
+- Raw data: `raw/calpads-course-codes.csv`, `raw/calpads-course-codes-data.txt`, `raw/credential-type-data.txt`, `raw/auth-sort-data.txt`

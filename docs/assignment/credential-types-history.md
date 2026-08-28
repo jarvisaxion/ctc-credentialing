@@ -2,11 +2,13 @@
 
 The Commission has issued many different types of general education teaching credentials over the decades. Many credentials issued prior to the 1980s were **"life" documents that do not expire** — employers should always review the authorization statement on older credentials to identify the scope of an individual's certification.
 
-Source: https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (downloaded 2026-08-28)
+Source: https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (downloaded 2026-08-28). Raw: `raw/assignment-resources/monitoring-credential-types.html`.
 
 ---
 
 ## 1. Generations of General Education Teaching Credentials
+
+> **Source:** CTC Assignment Monitoring — Credential Types — https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (raw: `raw/assignment-resources/monitoring-credential-types.html`).
 
 | Era | Credential | Notes |
 |-----|-----------|-------|
@@ -20,6 +22,8 @@ Source: https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitor
 
 ## 2. Credential Areas Currently Issued
 
+> **Source:** CTC Assignment Monitoring — Credential Types — https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (raw: `raw/assignment-resources/monitoring-credential-types.html`).
+
 The Commission issues credentials and permits that authorize individuals to provide various types of **instruction** and **non-teaching services** in the California public school system. Some credential types are issued not only for California-prepared educators but also include pathways for educators prepared in **other states** or **outside the United States**.
 
 **Key principle:** Every credential or permit has one or more **authorization statements** that reflect the preparation the holder received and specify the instruction or services authorized.
@@ -27,6 +31,8 @@ The Commission issues credentials and permits that authorize individuals to prov
 ---
 
 ## 3. Authorization Codes and Statements
+
+> **Source:** CTC Assignment Monitoring — Credential Types — https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (raw: `raw/assignment-resources/monitoring-credential-types.html`); CTC Credential Type and Authorization Statements — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 - All credentials issued by the Commission include an **authorization code** and an **authorization statement**.
 - The **authorization code** is a key to determining what services an educator is authorized to provide.
@@ -38,4 +44,14 @@ These codes and statements are the basis of the `data/credential-authorizations.
 
 ## 4. Why This Matters for Assignment Monitoring
 
+> **Source:** CTC Assignment Monitoring — Credential Types — https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/ (raw: `raw/assignment-resources/monitoring-credential-types.html`).
+
 Because older credentials are "life" documents that never expire, an educator may hold a credential issued decades ago whose authorization scope differs from modern credentials. When determining whether an assignment is appropriate, the employer must review the **actual authorization statement** on the educator's document — not just the credential type — to confirm it covers the course's setting, subject, and grade level.
+
+---
+
+## Sources
+
+- CTC Assignment Monitoring — Credential Types: https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-types/
+- CTC Credential Type and Authorization Statements: https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/
+- Raw data: `raw/assignment-resources/monitoring-credential-types.html`, `raw/credential-type-data.txt`

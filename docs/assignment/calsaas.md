@@ -2,11 +2,13 @@
 
 CalSAAS is the system used to **annually monitor certificated educator assignments** in California.
 
-Source: https://www.ctc.ca.gov/employers/calsaas/ (downloaded 2026-08-28)
+Source: https://www.ctc.ca.gov/employers/calsaas/ (downloaded 2026-08-28). Raw: `raw/assignment-resources/calsaas.html`.
 
 ---
 
 ## 1. What CalSAAS Does
+
+> **Source:** CalSAAS — https://www.ctc.ca.gov/employers/calsaas/ (raw: `raw/assignment-resources/calsaas.html`).
 
 CalSAAS works by **comparing**:
 
@@ -20,6 +22,8 @@ Through this comparison, the system identifies **questionable assignments** ("ex
 ---
 
 ## 2. Key Components
+
+> **Source:** CalSAAS — https://www.ctc.ca.gov/employers/calsaas/ (raw: `raw/assignment-resources/calsaas.html`).
 
 - **CalSAAS Login** — web portal for MAs and LEAs.
 - **CalSAAS FAQs** — frequently asked questions.
@@ -35,6 +39,8 @@ Through this comparison, the system identifies **questionable assignments** ("ex
 ---
 
 ## 3. Appropriate Credential Authorizations for CALPADS Coding
+
+> **Source:** CalSAAS — https://www.ctc.ca.gov/employers/calsaas/ (raw: `raw/assignment-resources/calsaas.html`); CTC "Appropriate Credentials for CALPADS Course Codes" — https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/ (raw: `raw/calpads-course-codes.csv`).
 
 The Commission publishes reference documents mapping CALPADS codes to appropriate credentials:
 
@@ -52,6 +58,8 @@ These are the authoritative mappings behind the `data/calpads-course-codes.csv` 
 
 ## 4. Exception Determination Process
 
+> **Source:** CalSAAS — https://www.ctc.ca.gov/employers/calsaas/ (raw: `raw/assignment-resources/calsaas.html`).
+
 For each reported assignment, CalSAAS determines:
 
 1. Does the educator hold the appropriate authorization for the assignment?
@@ -65,7 +73,18 @@ For each reported assignment, CalSAAS determines:
 
 ## 5. Relationship to CALPADS
 
+> **Source:** CalSAAS — https://www.ctc.ca.gov/employers/calsaas/ (raw: `raw/assignment-resources/calsaas.html`); CDE CALPADS — https://www.cde.ca.gov/ds/sp/cl/ (raw: `raw/cde-cl.html`).
+
 - **Starting in the 2019-20 school year**, the Commission uses **CALPADS course assignments** for monitoring purposes.
 - LEAs must **accurately report all educator and service provider assignments** in CALPADS.
 - CALPADS course assignments should be selected **based entirely on the content of the course or the nature of the position**, after the course content is determined.
 - For help determining the appropriate CALPADS course code, contact the CDE's CALPADS Operations Office at **calpads@cde.ca.gov**.
+
+---
+
+## Sources
+
+- CalSAAS: https://www.ctc.ca.gov/employers/calsaas/
+- CTC Appropriate Credentials for CALPADS Course Codes: https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/
+- CDE CALPADS: https://www.cde.ca.gov/ds/sp/cl/
+- Raw data: `raw/assignment-resources/calsaas.html`, `raw/calpads-course-codes.csv`, `raw/cde-cl.html`

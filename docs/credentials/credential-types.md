@@ -2,9 +2,13 @@
 
 This document catalogs the credential, permit, certificate, and authorization types issued by the **California Commission on Teacher Credentialing (CTC)**, based on the official credentialing data files (T01 table) and the Credential Type and Authorization Statements page.
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/cred-type-page.html`, `raw/credential-type-data.txt`, `raw/T01FILE.txt`, `raw/T06FILE.txt`). Downloaded 2026-08-28.
+
 ---
 
 ## The Main Teaching Credentials
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 These are the credentials that authorize a person to **teach** in California public schools.
 
@@ -31,12 +35,17 @@ These are the credentials that authorize a person to **teach** in California pub
 - **Key detail:** Authorizes teaching in grades twelve and below and in classes organized primarily for adults, in career technical instruction courses.
 
 ### Specialist Instruction Credentials
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 - **Codes:** `TC3A`–`TC3H` (Agriculture, Bilingual Crosscultural, Early Childhood, Gifted, Health Science, Mathematics, Reading, Special Education)
 - **What they authorize:** Teaching in a specialized instructional area, often as a specialist/consultant rather than a general classroom teacher.
 
 ---
 
 ## Permits
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 Permits are limited-term documents that authorize specific, often temporary, service.
 
@@ -60,6 +69,8 @@ Permits are limited-term documents that authorize specific, often temporary, ser
 
 ## Certificates
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 | Certificate | Code | Purpose |
 |-------------|------|---------|
 | **Certificate of Clearance** | `COC C` | Clearance to work in schools (background check) |
@@ -75,6 +86,8 @@ Permits are limited-term documents that authorize specific, often temporary, ser
 ---
 
 ## Added Authorizations
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 Added authorizations (AA) are added to a base credential to expand what the holder may do.
 
@@ -99,6 +112,8 @@ Added authorizations (AA) are added to a base credential to expand what the hold
 
 ## Services Credentials (Non-Teaching)
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 These authorize **non-teaching** professional services in schools:
 
 | Credential | Code | Authorizes |
@@ -117,10 +132,22 @@ These authorize **non-teaching** professional services in schools:
 
 ## Legacy / Historical Credentials
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`, `raw/T01FILE.txt`).
+
 The data includes many **legacy credentials** no longer issued but still held by some educators (e.g., General Teaching Credentials `GT1`–`GT7`, Standard Secondary Teaching Credential `STCB`, Standard Designated Subjects credentials `SDTC`/`SDTG`/`SDTH`). These are documented in the raw T01/T06 data files for completeness.
 
 ---
 
 ## Full Machine-Readable List
 
+> **Source:** `data/credential-types.csv` (parsed from `raw/cred-type-page.html`).
+
 See `data/credential-types.csv` for the complete, machine-readable list of credential codes and names.
+
+---
+
+## Sources
+
+- CTC Credential Type and Authorization Statements: https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/
+- Raw data: `raw/cred-type-page.html`, `raw/credential-type-data.txt`, `raw/T01FILE.txt`, `raw/T06FILE.txt`
+- Machine-readable: `data/credential-types.csv`, `data/credential-authorizations.csv`

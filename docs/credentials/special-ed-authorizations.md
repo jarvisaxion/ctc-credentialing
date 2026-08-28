@@ -2,11 +2,15 @@
 
 This document details which **disability categories** each special education authorization covers, based on the CTC **Authorization Sort Table** (the "Assignments Authorized by Special Education Authorizations" table).
 
+> **Source:** CTC Authorization Sort Table — https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-authorizations/ (raw: `raw/auth-sort-data.txt`, `raw/auth-sort.html`). Downloaded 2026-08-28.
+
 **Legend:** ✓ = Authorizes service for the disability category; X = Does not authorize service in the identified disability area. \* = These authorizations may only be added to a base special education teaching credential as an Added Authorization (AA).
 
 ---
 
 ## Modern Support-Need Authorizations
+
+> **Source:** `raw/auth-sort-data.txt` (modern support-need rows).
 
 | Credential / Authorization | Code | Grade Level | Student Support Level | Autism | Emotional Disturbance | Intellectual Disability | Established Medical Disability | Multiple Disabilities | Orthopedic Impairments | Other Health Impairment | Specific Learning Disability | Traumatic Brain Injury | Deafness/Hard of Hearing | Deafblindness | Visual Impairments | Resource Specialist |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -20,6 +24,8 @@ This document details which **disability categories** each special education aut
 
 ## Bridge Authorizations
 
+> **Source:** `raw/auth-sort-data.txt` (bridge authorization rows).
+
 | Bridge Authorization | Code | Grade Level | Covers | Notes |
 |----------------------|------|-------------|--------|-------|
 | **Education Specialist Bridge – Mild to Moderate Support Needs** | `R3BM` | TK–12 (up to age 22), Adult Ed | Mild to Moderate only, for disabilities unauthorized by R3MM | ✓✓✓✓✓✓✓ (all except deaf/hard of hearing, deafblind, VI) |
@@ -29,6 +35,8 @@ This document details which **disability categories** each special education aut
 ---
 
 ## Legacy Support-Need Authorizations
+
+> **Source:** `raw/auth-sort-data.txt` (legacy support-need rows).
 
 | Credential | Code | Grade Level | Student Support Level | Autism | Emotional Disturbance | Intellectual Disability | Established Medical Disability | Multiple Disabilities | Orthopedic Impairments | Other Health Impairment | Specific Learning Disability | Traumatic Brain Injury | Deafness/Hard of Hearing | Deafblindness | Visual Impairments | Resource Specialist |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -43,6 +51,8 @@ This document details which **disability categories** each special education aut
 ---
 
 ## Added Authorizations (Disability-Specific)
+
+> **Source:** `raw/auth-sort-data.txt` (added authorization rows).
 
 | Added Authorization | Code | Grade Level | Covers |
 |---------------------|------|-------------|--------|
@@ -60,6 +70,8 @@ This document details which **disability categories** each special education aut
 
 ## Important Notes
 
+> **Source:** `raw/auth-sort-data.txt` (notes/legend); CTC authorization statements for Education Specialist credentials.
+
 1. **Mild/Moderate (R3MM)** is limited to **Mild/Moderate Intellectual Disabilities**; **Moderate/Severe (R3MS)** is limited to **Moderate/Severe Intellectual Disabilities**.
 2. **Language and Academic Development (LAD)** authorization allows services across disability areas, limited to students identified with academic communication and language needs (language development, school readiness, social skills, literacy development).
 3. **Resource Specialist** may serve as a resource specialist within the grade levels authorized on the document.
@@ -71,3 +83,7 @@ This document details which **disability categories** each special education aut
 ## Source
 
 This matrix is derived from the CTC **Authorization Sort Table** (`raw/auth-sort-data.txt`), which is the official "Assignments Authorized by Special Education Authorizations" reference.
+
+- CTC Authorization Sort Table: https://www.ctc.ca.gov/employers/assignment-resources/assignment-monitoring/credential-authorizations/
+- Raw data: `raw/auth-sort-data.txt`, `raw/auth-sort.html`
+- Related: CTC Credential Type and Authorization Statements — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/

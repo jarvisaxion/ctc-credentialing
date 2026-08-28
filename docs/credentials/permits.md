@@ -2,13 +2,19 @@
 
 This document catalogs the **permits**, **certificates**, and **added authorizations** issued by the California Commission on Teacher Credentialing (CTC). These are distinct from the main teaching credentials and authorize specific, often temporary or supplementary, service.
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/cred-type-page.html`, `raw/credential-type-data.txt`, `raw/T01FILE.txt`, `raw/T06FILE.txt`). Downloaded 2026-08-28.
+
 ---
 
 ## Permits
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 Permits are limited-term documents that authorize specific service. They are typically issued for substitute teaching, emergency staffing, internships, or limited assignments.
 
 ### Substitute Teaching Permits
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Permit | Code | Purpose |
 |--------|------|---------|
@@ -20,6 +26,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 | **Substitute Teaching Credential Based on Board of Ed Waiver** | `SUBWR` | Substitute teaching via Board of Education waiver |
 
 ### Intern / Emergency Permits
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Permit | Code | Purpose |
 |--------|------|---------|
@@ -33,6 +41,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 
 ### Limited Assignment Permits
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 | Permit | Code | Purpose |
 |--------|------|---------|
 | **Limited Assignment Authorization** | `TC1LR` | Authorizes a specific limited assignment |
@@ -41,6 +51,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 | **Special Education Limited Assignment Teaching Permit** | `TLA3R` | Limited assignment in special education |
 
 ### Subject-Specific Permits
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Permit | Code | Purpose |
 |--------|------|---------|
@@ -52,6 +64,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 
 ### Other Permits
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 | Permit | Code | Purpose |
 |--------|------|---------|
 | **Visiting Faculty Permit** | `VFP R` | Visiting faculty teaching |
@@ -59,6 +73,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 | **Child Development Permits** | `P1`–`P12` | Child development program service (see below) |
 
 ### Child Development Permits
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Permit | Code | Purpose |
 |--------|------|---------|
@@ -75,6 +91,8 @@ Permits are limited-term documents that authorize specific service. They are typ
 ---
 
 ## Certificates
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Certificate | Code | Purpose |
 |-------------|------|---------|
@@ -94,9 +112,13 @@ Permits are limited-term documents that authorize specific service. They are typ
 
 ## Added Authorizations
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 Added authorizations (AA) are added to a base credential to expand what the holder may do.
 
 ### Academic / Instructional Added Authorizations
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Added Authorization | Code | Expands to |
 |---------------------|------|------------|
@@ -109,6 +131,8 @@ Added authorizations (AA) are added to a base credential to expand what the hold
 | **Bilingual Authorization Permit** | `SA15R` | Bilingual instruction (permit form) |
 
 ### Special Education Added Authorizations
+
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
 
 | Added Authorization | Code | Expands to |
 |---------------------|------|------------|
@@ -128,6 +152,8 @@ Added authorizations (AA) are added to a base credential to expand what the hold
 
 ### Designated Subjects Supervision Added Authorizations
 
+> **Source:** CTC Credential Type and Authorization Statements page — https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/ (raw: `raw/credential-type-data.txt`).
+
 | Added Authorization | Code | Expands to |
 |---------------------|------|------------|
 | **Designated Subjects Supervision and Coordination Credential** | `SA4R` | Supervision/coordination |
@@ -139,3 +165,11 @@ Added authorizations (AA) are added to a base credential to expand what the hold
 ## Key Takeaway
 
 Permits, certificates, and added authorizations are **supplementary documents** that either authorize temporary/limited service (permits), certify a specific competence (certificates), or expand a base credential's scope (added authorizations). They are essential for understanding the full scope of what an educator is authorized to do.
+
+---
+
+## Sources
+
+- CTC Credential Type and Authorization Statements: https://www.ctc.ca.gov/employers/tools-and-resources/credential-type-and-authorization-statements/
+- Raw data: `raw/cred-type-page.html`, `raw/credential-type-data.txt`, `raw/T01FILE.txt`, `raw/T06FILE.txt`
+- Machine-readable: `data/credential-types.csv`, `data/credential-authorizations.csv`
