@@ -14,6 +14,7 @@ This repository consolidates and documents the official data published by the **
 | **Authorization statements** | What each credential authorizes the holder to do (grade levels, subjects, services) | CTC credentialing data files (T06) |
 | **Special education authorizations** | Which disability categories each special-ed authorization covers | CTC Authorization Sort Table |
 | **CALPADS course codes** | Every course code, its subject/setting, and the credentials that fully authorize teaching it | CTC "Appropriate Credentials for CALPADS Course Codes" |
+| **Assignment determination & monitoring** | How California determines whether a teacher is appropriately assigned, the hiring hierarchy, LAOs, emergency permits, EL authorizations, CalSAAS monitoring | CTC Assignment Resources site |
 
 ---
 
@@ -31,9 +32,13 @@ ctc-credentialing/
 │   │   ├── designated-subjects.md  # CTE / designated subjects credentials
 │   │   ├── permits.md            # Permits, certificates, and authorizations
 │   │   └── special-ed-authorizations.md # Disability-category authorization matrix
-│   └── course-codes/
-│       ├── calpads-course-codes.md  # Full CALPADS course code reference
-│       └── credential-requirements.md # How credential requirements map to courses
+│   ├── course-codes/
+│   │   ├── calpads-course-codes.md  # Full CALPADS course code reference
+│   │   └── credential-requirements.md # How credential requirements map to courses
+│   └── assignment/
+│       ├── assignment-monitoring.md  # How assignments are determined & monitored
+│       ├── calsaas.md                # CalSAAS monitoring system
+│       └── credential-types-history.md # History of teaching credentials
 ├── data/
 │   ├── calpads-course-codes.csv  # Cleaned, machine-readable course code table
 │   └── credential-types.csv      # Cleaned credential type table
@@ -102,6 +107,8 @@ All reference data was downloaded from the official CTC website on **2026-08-28*
    - Index of employer-facing credentialing tools.
 4. **Appropriate Credentials for CALPADS Course Codes** — https://www.ctc.ca.gov/employers/calsaas/calpads-course-codes/
    - The course-code-to-credential mapping table.
+5. **Assignment Resources** — https://www.ctc.ca.gov/employers/assignment-resources/
+   - Assignment determination & monitoring, hiring hierarchy, LAOs, emergency permits, EL authorizations, CalSAAS, charter school assignments, and 7 training module handouts (all preserved in `raw/assignment-resources/`).
 
 The `raw/` directory contains the original, unmodified downloads for provenance and verification.
 
