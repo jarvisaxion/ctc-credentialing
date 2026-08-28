@@ -1,0 +1,1400 @@
+      Commission on Teacher Credentialing
+      1900 Capitol Avenue Sacramento, CA 95811                                                        www.ctc.ca.gov
+
+
+
+
+MEMORANDUM
+
+DATE:         June 2015
+
+TO:           County Office of Education Credential Analysts and Technical Support Staff
+
+SUBJECT:      Weekly Document Data Files for County Offices of Education; New Format Phase-In
+
+CTC is phasing in a slight change to the weekly exchange file. Entities that receive data through CSIS will receive
+files in the new format; they may request through CSIS the obsolete file format. COEs receiving data from CTC will
+receive both formats through December 2015 to allow them time to update their systems.
+
+
+Each week the Commission creates files containing document information using the county of employment field.
+The county offices generally use this information to update their records for assignment and payroll purposes. The
+authority for this sharing of credential information can be found in Education Code §44230.
+
+The Commission creates the following data files and the county office may receive any and all formats:
+    • a pdf file that contains the documents that were issued for that week.
+    • an electronic file containing the document information in a fixed-length format.
+    • an electronic file contain the document information in a tab-delimited format.
+
+Electronic files are placed on the Commission’s SFTP server hosted by OTECH; the SFTP server encrypts the data
+both in transmission and while at rest. Counties maintain their passwords to access their SFTP directory in
+accordance with OTECH requirements. For additional security the data is encrypted using PGP software and a
+different password from their SFTP access.
+
+Attached is the:
+    • list of the data that the Commission includes in the electronic document information file.
+    • data dictionary that defines each of the fields.
+
+Contact Information:
+
+Contact the CTC Help Desk, hdesk@ctc.ca.gov
+
+
+
+
+                                         Ensuring Educator Excellence
+REVISIONS:
+Ver        Date         Author             Description
+--------- ----------    ---------------    ---------------------------------------------
+1.1        01/29/2008    RHowe             Fields modified:
+                                            Authorization codes occurs increased to 10.
+No Data
+                                            Renewal codes occurs increased to 10.
+           No Data      No Data
+                                           Added fields:
+                                            SEID
+                                            STAFF
+                                            WAIVER-CONDITION
+1.2        06/26/2015    RHowe             Fields modified:
+                                            Width of Recom-Inst field increased to 50.
+                                            New table: Authorized Institutions, to go
+                                             along with the expanded Recom-Inst field.
+
+
+Attachment 1: List of data elements
+SSN                                       Alphanumeric      9
+NAME-LAST                                 Alphanumeric     26
+NAME-FIRST                                Alphanumeric     20
+NAME-MIDDLE                               Alphanumeric     26
+FORMER-NAMES                              Alphanumeric     26    OCCURS 4 TIMES
+STREET-1                                  Alphanumeric     26
+STREET-2                                  Alphanumeric     26
+CITY                                      Alphanumeric     20
+STATE                                     Alphanumeric      2
+ZIP1-5                                    Alphanumeric      5
+ZIP6-9                                    Alphanumeric      4
+PHONE-HOME                                Alphanumeric     10
+PHONE-WORK                                Alphanumeric     10
+DOCUMENT-NO                               Alphanumeric     12
+CRED-TITLE                                Alphanumeric      4
+CRED-ACTION-TYPE                          Alphanumeric      2
+TERM                                      Alphanumeric      2
+BASIS                                     Alphanumeric      1
+CNTY-EMPLOYED                             Alphanumeric      2
+AUTH-CODES                                Alphanumeric      4    OCCURS 10 TIMES
+RENEW-CODES                               Alphanumeric      4    OCCURS 10 TIMES
+GRADES                                    Alphanumeric      4
+SPECIAL-GRADES                            Alphanumeric      4
+TC-REQUIREMENTS                           Alphanumeric     12
+RESTRICTIONS                                                     OCCURS 2 TIMES
+     RESTR-CODE                           Alphanumeric      1
+     RESTR-CNTY                           Alphanumeric      2
+     RESTR-DISTR                          Numeric           5
+     RESTR-AGENCY                         Alphanumeric      4
+DATE-OF-ISSUE                             Numeric           6
+DATE-EXPIRE                               Numeric           6
+DATE-ORIG-ISSUE                           Numeric           6
+MAJORS                                                           OCCURS 7 TIMES
+     MAJ-CODE                             Alphanumeric      4
+     MAJ-TITLE                            Alphanumeric     66
+     MAJ-ADD-DATE                         Numeric           4
+MINORS                                                           OCCURS 7 TIMES
+     MIN-CODE                             Alphanumeric   4
+     MIN-TITLE                            Alphanumeric 66
+     MIN-ADD-DATE                         Numeric        4
+GRANT-DATE                                Numeric        6
+RECOM-INST                                Alphanumeric 50
+OLD-DOC-NO                                Alphanumeric 12
+SEID                                      Alphanumeric 10
+STAFF-REC                                 Alphanumeric 24
+WAIVER-CONDITION                          Alphanumeric 672
+
+
+
+                                  Ensuring Educator Excellence
+Attachment 2: Data Dictionary
+
+SSN
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 9, Position 1 through 9
+
+  DEFINITION: Social Security Number
+  NOTES: If first three bytes = 000, then CTC assigned temporary SSN.
+
+
+
+NAME-LAST
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 26, Position 10 through 35
+
+  DEFINITION: Last Name
+  NOTES:
+
+
+
+NAME-FIRST
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 20, Position 36 through 55
+
+  DEFINITION: First Name
+  NOTES:
+
+
+
+NAME-MIDDLE
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 56 through 81
+
+  DEFINITION: Middle Name
+  NOTES:
+
+
+
+
+                                        Ensuring Educator Excellence
+FORMER NAMES-1
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 82 through 107
+
+  DEFINITION: Also Known As
+  NOTES:
+
+
+
+FORMER NAMES-2
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 108 through 133
+
+  DEFINITION: Also Known As
+  NOTES:
+
+
+
+FORMER NAMES-3
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 134 through 159
+
+  DEFINITION: Also Known As
+  NOTES:
+
+
+
+FORMER NAMES-4
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 160 through 185
+
+  DEFINITION: Also Known As
+  NOTES:
+
+
+
+STREET-1
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 186 through 211
+
+  DEFINITION: Postal street address
+  NOTES: Foreign address is contained within STREET–1, STREET-2 and City
+
+
+
+
+                                     Ensuring Educator Excellence
+STREET - 2
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 26, Position 212 through 237
+
+  DEFINITION:
+  NOTES: Extension of STREET-1 (optional)
+
+
+
+CITY
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 20, Position 238 through 257
+
+  DEFINITION: Postal city address
+  NOTES:
+
+
+
+STATE
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 258 through 259
+
+  DEFINITION: Postal state address
+  NOTES:
+
+
+
+ZIP1-5
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 5, Position 260 through 264
+
+  DEFINITION:
+  NOTES:
+
+
+
+ZIP6-9
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 265 through 268
+
+  DEFINITION:
+  NOTES:
+
+
+
+
+                                     Ensuring Educator Excellence
+PHONE-HOME
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 10, Position 269 through 278
+
+  DEFINITION:
+  NOTES: 3 digit area code followed by 7 digit telephone number
+
+
+
+
+PHONE-WORK
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 10, Position 279 through 288
+
+  DEFINITION:
+  NOTES: 3 digit area code followed by 7 digit telephone number
+
+
+
+DOCUMENT-NO
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 12, Position 289 through 300
+
+  DEFINITION:
+  NOTES: Waivers begin with a “W” all others the first 2 bytes represent the year
+
+
+
+CRED-TITLE
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 301 through 304
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T01DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+CRED-ACTION-TYPE
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 305 through 306
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T03DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                         Ensuring Educator Excellence
+TERM
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 307 through 308
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T04DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+APPLICATION BASIS
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 1, Position 309 through 309
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T05DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+CNTY-EMPLOYED
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 310 through 311
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T16DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 312 through 315
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+AUTH-CODES-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 316 through 319
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 320 through 323
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-04
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 324 through 327
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-05
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 328 through 331
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+AUTH-CODES-06
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 332 through 335
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-07
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 336 through 339
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-08
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 340 through 343
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+AUTH-CODES-09
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 344 through 347
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+AUTH-CODES-10
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 348 through 351
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T06DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 352 through 355
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 356 through 359
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 360 through 363
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+RENEW-CODES-04
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 364 through 367
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-05
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 368 through 371
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-06
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 372 through 375
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-07
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 376 through 379
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+
+                                       Ensuring Educator Excellence
+RENEW-CODES-08
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 380 through 383
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-09
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 384 through 387
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+RENEW-CODES-10
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 388 through 391
+
+ DEFINITION:
+ NOTES: Description of these codes can be referenced from the T07DATA file located in the Credential
+        Information Guide website in the Table Files link under Resources on the left side of the page. If you
+        are a county the tables are located in your data download site.
+
+
+
+GRADES
+
+ FIELD TYPE:   Alphanumeric
+ FIELD LENGTH: 4, Position 392 through 395
+
+ DEFINITION:
+ NOTES: K    = Kindergarten,
+        ADUL = Adult,
+        1-14 = Grade level
+
+         First two characters represent the beginning grade level and the last two characters represent the end
+         grade level. Example: “K 12” means kindergarten through 12th grade.
+
+
+
+
+                                        Ensuring Educator Excellence
+SPECIAL-GRADES
+
+   FIELD TYPE:   Alphanumeric
+   FIELD LENGTH: 4, Position 396 through 399
+
+   DEFINITION:
+   NOTES: K    = Kindergarten,
+          ADUL = Adult,
+          1-14 = Grade level
+
+            First two characters represent the beginning grade level and the last two characters represent the end
+            grade level. Example: “K 12” means kindergarten through 12th grade.
+
+
+
+TC-REQUIREMENTS
+
+   FIELD TYPE:   Alphanumeric
+   FIELD LENGTH: 12, Position 400 through 411
+
+   DEFINITION:
+   NOTES: Description of these codes can be referenced from the T07CODE [note: not T07DATA] file located in
+the Credential Information Guide website in the Table Files link under Resources on the left side of the page. If
+you are a county the tables are located in your data download site.
+         Each character in the field represents a separate phrase. Thus, if the letters CIP appear, consider each
+separately, like so:
+             C = Computer Education
+             I = RICA
+             P = CPR
+
+
+RESTR-CODE-1
+
+   FIELD TYPE:   Alphanumeric
+   FIELD LENGTH: 1, Position 412 through 412
+
+   DEFINITION:
+   NOTES: Descriptions of the values:
+          2 = restricted to the county schools
+             “Restricted to service in the schools under the jurisdiction (Name of County)”
+          3 = restricted to a non-public school in a county – Issue date BEFORE 7/1/1995
+             “Restricted to service in a non-public school located in (Name of County)”
+             or restricted to a non-public school – Issue date AFTER 7/1/1995
+             “Restricted to service in the following non-public school or agency: (Name of NPS/NPA)”
+          4 = restricted to an IHE and nonpublic school or agency for an internship
+             “Restricted to service under the joint supervision of (Name of IHE) and (Name of NPS/NPA),
+             (Name of County)”
+          5 = restricted to an IHE and district or county for an internship
+             “Restricted to service under the joint supervision of (Name of IHE) and (Name of District), (Name
+             of County)”
+          6 = restricted to the county and district or to an agency or charter school
+             “Restricted to service in (Name of School District or Charter School), (Name of County)”
+             or
+             “Restricted to service in (Name of Agency or Charter School)”
+
+
+
+
+                                           Ensuring Educator Excellence
+RESTR-CNTY-1
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 413 through 414
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T16DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RESTR-DISTR-1
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 5, Position 415 through 419
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T19DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RESTR-AGENCY-1
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 420 through 423
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T18DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+RESTR-CODE-2
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 1, Position 424 through 424
+
+  DEFINITION:
+  NOTES: Descriptions of the values:
+         2 = restricted to the county schools
+            “Restricted to service in the schools under the jurisdiction (Name of County)”
+         3 = restricted to a non-public school in a county – Issue date BEFORE 7/1/1995
+            “Restricted to service in a non-public school located in (Name of County)”
+            or restricted to a non-public school – Issue date AFTER 7/1/1995
+            “Restricted to service in the following non-public school or agency: (Name of NPS/NPA)”
+         4 = restricted to an IHE and nonpublic school or agency for an internship
+            “Restricted to service under the joint supervision of (Name of IHE) and (Name of NPS/NPA),
+            (Name of County)”
+         5 = restricted to an IHE and district or county for an internship
+            “Restricted to service under the joint supervision of (Name of IHE) and (Name of District), (Name
+            of County)”
+         6 = restricted to the county and district or to an agency or charter school
+            “Restricted to service in (Name of School District or Charter School), (Name of County)”
+            or
+            “Restricted to service in (Name of Agency or Charter School)”
+
+
+
+RESTR-CNTY-2
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 2, Position 425 through 426
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T16DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+RESTR-DISTR-2
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 5, Position 427 through 431
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T19DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+
+                                        Ensuring Educator Excellence
+RESTR-AGENCY-2
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 432 through 435
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T18DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+
+
+DATE-OF-ISSUE
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 6, Position 436 through 441
+
+  DEFINITION:
+  NOTES:
+
+
+
+DATE-EXPIRE
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 6, Position 442 through 447
+
+  DEFINITION:
+  NOTES:
+
+
+
+DATE-ORIG-ISSUE
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 6, Position 448 through 453
+
+  DEFINITION: The initial issue date for the credential.
+  NOTES:
+
+
+
+MAJ-CODE-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 454 through 457
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+           If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+           subjects are the reason the county transfer file includes the full title of the major.
+
+
+                                         Ensuring Educator Excellence
+MAJ-TITLE-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 458 through 523
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-01
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 524 through 527
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MAJ-CODE-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 528 through 531
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+MAJ-TITLE-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 532 through 597
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-02
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 598 through 601
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+                                        Ensuring Educator Excellence
+MAJ-CODE-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 602 through 605
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+MAJ-TITLE-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 606 through 671
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-03
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 672 through 675
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MAJ-CODE-04
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 676 through 679
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+
+                                        Ensuring Educator Excellence
+MAJ-TITLE-04
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 680 through 745
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-04
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 746 through 749
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MAJ-CODE-05
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 750 through 753
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+MAJ-TITLE-05
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 754 through 819
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-05
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 820 through 823
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+                                        Ensuring Educator Excellence
+MAJ-CODE-06
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 824 through 827
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+MAJ-TITLE-06
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 828 through 893
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-06
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 894 through 897
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MAJ-CODE-07
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 898 through 901
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T12DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MAJ-CODE begins with an “X”, it will not be on the Subject table T12DATA file. These unusual
+          subjects are the reason the county transfer file includes the full title of the major.
+
+
+
+
+                                        Ensuring Educator Excellence
+MAJ-TITLE-07
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 902 through 967
+
+  DEFINITION: The full text of the major/subject printed on the document.
+  NOTES:
+
+
+
+MAJ-ADD-DATE-07
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 968 through 971
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MIN-CODE-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 972 through 975
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+MIN-TITLE-01
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 976 through 1041
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+MIN-ADD-DATE-01
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1042 through 1045
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+                                          Ensuring Educator Excellence
+MIN-CODE-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1046 through 1049
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+MIN-TITLE-02
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1050 through 1115
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+MIN-ADD-DATE-02
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1116 through 1119
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MIN-CODE-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1120 through 1123
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+
+                                          Ensuring Educator Excellence
+MIN-TITLE-03
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1124 through 1189
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+MIN-ADD-DATE-03
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1190 through 1193
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MIN-CODE-04
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1194 through 1197
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+MIN-TITLE-04
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1198 through 1263
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+MIN-ADD-DATE-04
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1264 through 1267
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+                                          Ensuring Educator Excellence
+MIN-CODE-05
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1268 through 1271
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+MIN-TITLE-05
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1272 through 1337
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+MIN-ADD-DATE-05
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1338 through 1341
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MIN-CODE-06
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1342 through 1345
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+
+                                          Ensuring Educator Excellence
+MIN-TITLE-06
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1346 through 1411
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+MIN-ADD-DATE-06
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1412 through 1415
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+MIN-CODE-07
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 4, Position 1416 through 1419
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the T13DATA file located in the Credential
+         Information Guide website in the Table Files link under Resources on the left side of the page. If you
+         are a county the tables are located in your data download site.
+
+          If MIN-CODE begins with an “X”, it will not be on the Supplementary Authorization table T13DATA
+          file. These unusual subjects are the reason the county transfer file includes the full title of the minors.
+
+
+
+MIN-TITLE-07
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 66, Position 1420 through 1485
+
+  DEFINITION: The full text of the minor/subject printed on the document.
+  NOTES:
+
+
+
+
+                                          Ensuring Educator Excellence
+MIN-ADD-DATE-07
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 4, Position 1486 through 1489
+
+  DEFINITION: The date subject was added to the document if it did not appear on the document when it was
+              initially issued.
+  NOTES:
+
+
+
+GRANT-DATE
+
+  FIELD TYPE:   Numeric
+  FIELD LENGTH: 6, Position 1490 through 1495
+
+  DEFINITION: Date document was printed at CTC.
+  NOTES:
+
+
+
+RECOM_INST
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 50, Position 1496 through 1545
+
+  DEFINITION:
+  NOTES: Description of these codes can be referenced from the 22DATA file located in the Credential
+      Information Guide website in the Table Files link under Resources on the left side of the page. If you are
+      a county the tables are located in your data download site.
+
+
+
+OLD-DOC-NO
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 12, Position 1546 through 1557
+
+  DEFINITION:
+  NOTES: Waivers begin with a “W” all others the first 2 bytes represent the year
+
+
+
+SEID
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 10, Position 1558 through 1567
+
+  DEFINITION: Statewide Educator Identifier
+  NOTES: All SEID’s are unique randomly assigned to an educator’s SSN. If an educator’s SSN is incorrectly
+         entered into CASE it will receive a new unique SEID for the new SSN.
+
+
+
+
+                                         Ensuring Educator Excellence
+STAFF-REC
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 24, Position 1568 through 1591
+
+  DEFINITION:
+  NOTES:
+
+
+
+WAIVER-CONDITION
+
+  FIELD TYPE:   Alphanumeric
+  FIELD LENGTH: 672, Position 1592 through 2263
+
+  DEFINITION: A Waiver condition description.
+  NOTES:
+
+
+
+
+                                        <End of Data Dictionary>
+
+
+
+
+                                      Ensuring Educator Excellence
+

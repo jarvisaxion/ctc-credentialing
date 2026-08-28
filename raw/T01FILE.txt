@@ -1,0 +1,227 @@
+1969LCertificate of Completion of Staff Development (Registration only/not a CTC document)
+AETCRAdult Education Teaching Credential                                                  
+AIL RAmerican Indian Languages Credential                                                 
+AILCRAmerican Indian Language-Culture Credential                                          
+ASCCRActivity Supervisor Clearance Certificate                                            
+BIPTRBusiness and Industry Partnership Teacher Authorization                              
+BLC  Bilingual Certificate of Competence                                                  
+C8  REducator Authorization                                                               
+COC CCertificate of Clearance                                                             
+CTE RCareer Technical Education Teaching Credential                                       
+GS1 GGeneral Child Welfare and Supervision of Attendance Credential                       
+GS10GGeneral Administration Credential                                                    
+GS13GSecondary Administration Credential: Trade and Industrial Education                  
+GS14GGeneral Supervision of School Budgets Credential                                     
+GS15GGeneral Supervision Credential                                                       
+GS16GGeneral School Psychometrist Credential                                              
+GS17GGeneral School Psychologist Credential                                               
+GS18 "The Supervision Credential"                                                         
+GS19GGeneral Pupil Personnel Services Credential                                          
+GS2 GGeneral Health and Development Services Credential                                   
+GS20GGeneral Services Credential                                                          
+GS21GChildren's Center Permit (1966-1974)                                                 
+GS22GDevelopment Center Permit                                                            
+GS23  Exchange Service                                                                    
+GS25GGeneral School Principal or Supervisor Credential                                    
+GS3 GGeneral Librarianship Credential                                                     
+GS5 GGeneral Elementary School Administration Credential                                  
+GS6 GGeneral Elementary School Supervision Credential                                     
+GS7 GGeneral Secondary School Administration Credential                                   
+GS8 GGeneral Secondary School Supervision Credential                                      
+GS9 GGeneral Special Subject Supervision Credential                                       
+GT1 GGeneral Kindergarten-Primary Teaching Credential                                     
+GT2 GGeneral Elementary Teaching Credential                                               
+GT3 GGeneral Junior High Teaching Credential                                              
+GT4 GGeneral Junior College Teaching Credential                                           
+GT5 GGeneral Secondary Teaching Credential                                                
+GT6 GExchange Teaching                                                                    
+GT7 GGeneral Teaching Credential                                                          
+MILSRMathematics Instructional Leadership Specialist                                      
+MURS Miller Unruh Reading Specialist-use SA8                                              
+P1   Children's Center Permit                                                             
+P10  Children's Center Permit                                                             
+P10IPChildren's Center Instruction Permit                                                 
+P10SPChildren's Center Supervision Permit                                                 
+P12APChild Development Assistant Permit                                                   
+P12BPChild Development Associate Teacher Permit                                           
+P12CPChild Development Teacher Permit                                                     
+P12DPChild Development Master Teacher Permit                                              
+P12EPChild Development Site Supervisor Permit                                             
+P12FPChild Development Program Director Permit                                            
+P1I PChildren's Center Instruction Permit                                                 
+P1S PChildren's Center Supervision Permit                                                 
+P2   Children's Center Permit                                                             
+P2I PChildren's Center Instruction Permit                                                 
+P2S PChildren's Center Supervision Permit                                                 
+P3   Children's Center Permit                                                             
+P3I PChildren's Development Programs Instruction Permit                                   
+P3S PChildren's Development Programs Supervision Permit                                   
+P4   Children's Center Permit                                                             
+P4I PChildren's Center Instruction Permit                                                 
+P4S PChildren's Center Supervision Permit                                                 
+P5  PDevelopment Center Permit                                                            
+P6  PSpecial Center Permit                                                                
+PK3 RPK-3 Early Childhood Education Specialist Instruction Credential                     
+PTC2RMultiple Subject Teaching Credential                                                 
+RLAARReading and Literacy Added Authorization                                             
+RLLSRReading and Literacy Leadership Specialist                                           
+SA1 RResource Specialist Added Authorization                                              
+SA10RBilingual Certificate of Assessment Competence                                       
+SA11 Resource Specialist Exchange                                                         
+SA12RCrosscultural, Language and Academic Development Certificate                         
+SA13RCrosscultural, Language and Academic Development Permit                              
+SA14RBilingual, Crosscultural, Language and Academic Development Certificate              
+SA15RBilingual Authorization Permit                                                       
+SA16RReading Certificate                                                                  
+SA17RCertificate of Completion of Staff Development                                       
+SA1PRResource Specialist Permit                                                           
+SA2 REarly Childhood Special Education Certificate                                        
+SA3 RDesignated Subjects Supervision and Coordination Credential for Vocational Ed        
+SA4 RDesignated Subjects Supervision and Coordination Credential                          
+SA5 RDesignated Subjects Supervision and Coordination Credential for Non-Vocational Ed    
+SA6 RBilingual Certificate of Competence                                                  
+SA7 RAdapted Physical Education Specialist Credential                                     
+SA8 RMiller Unruh Reading Specialist Certificate                                          
+SA9 RLanguage Development Specialist Certificate                                          
+SC1  Administrative Service                                                               
+SC1ARAdministrative Services Credential                                                   
+SC1BRAdministrative Services Credential (Examination)                                     
+SC2 RLibrarianship Services Credential                                                    
+SC2ARLibrary Media Teacher Services Credential                                            
+SC2BRTeacher Librarian Services Credential                                                
+SC2ERTeacher Librarian Services Permit                                                    
+SC2PRLibrary Media Teacher Services Permit                                                
+SC3 RHealth Services Credential                                                           
+SC3ARSchool Nurse Services Credential                                                     
+SC4 RClinical or Rehabilitative Services Credential                                       
+SC4PRClinical or Rehabilitative Services Permit                                           
+SC5 RPupil Personnel Services Credential                                                  
+SC6 REminence Services Credential                                                         
+SC7 RExchange Certificated Employee Services Credential                                   
+SC8 RSpeech-Language Pathology Services Credential                                        
+SDT1SLimited Driver Training                                                              
+SDTASStandard Designated Subjects Teaching Credential                                     
+SDTBSStandard Designated Subjects Teaching Credential                                     
+SDTCSStandard Designated Subjects Adult Education Teaching Credential                     
+SDTDSStandard Designated Subjects Business Education Teaching Credential                  
+SDTESStandard Designated Subjects Teaching Credential                                     
+SDTFSModern Foreign Language                                                              
+SDTGSStandard Designated Subjects Industrial Arts and Occupational Ed Teaching Credential 
+SDTHSStandard Designated Subjects Vocational Trade and Technical Ed Teaching Credential   
+SDTISStandard Designated Subjects Teaching Credential                                     
+SDTJSOutstanding Eminence                                                                 
+SDTKSEminence Teaching                                                                    
+SDTLSStandard Designated Subjects Vocational Agriculture Teaching Credential              
+SDTMSStandard Designated Subjects Teaching Credential                                     
+SDTNSStandard Designated Subjects Industrial Arts and Vocational Teaching Credential      
+SPECRSpecial Certificate of Appreciation                                                  
+SSCASStandard Pupil Personnel Services Credential                                         
+SSCBSStandard Health Services Credential                                                  
+SSCCSStandard Supervision Credential                                                      
+SSCDSStandard Administration Credential                                                   
+ST1 GSpecial Secondary Teaching Credential in Art                                         
+ST10GSpecial Secondary Teaching Credential in Industrial Arts                             
+ST11GSpecial Secondary Limited Teaching Credential in Industrial Arts                     
+ST12GSpecial Secondary Limited Teaching Credential in Industrial Arts (Part-Time)         
+ST13GSpecial Secondary Credential for Teacher Lip Reading                                 
+ST14GSpecial Secondary Teaching Credential in Music                                       
+ST15GSpecial Secondary Limited Teaching Credential in Music                               
+ST16GSpecial Secondary Teaching Credential in Nursing Education                           
+ST17GSpecial Secondary Credential for Teaching the Partially Sighted Child                
+ST18GSpecial Secondary Teaching Credential in Physical Education                          
+ST19GSpecial Secondary Teaching Credential in Public Safety Education                     
+ST2 GSpecial Secondary Teaching Credential in Aviation                                    
+ST20GSpecial Secondary Teaching Credential in Sciences Basic to Medicine                  
+ST21GSpecial Secondary Teaching Credential in Speech Arts                                 
+ST22GSpecial Secondary Teaching Credential in Correction of Speech Defects                
+ST23GSpecial Secondary Vocational Class A Teaching Credential                             
+ST24GSpecial Secondary Vocational Class B Teaching Credential                             
+ST25GSpecial Secondary Vocational Class C1 Teaching Credential                            
+ST26GSpecial Secondary Vocational Class C2 Teaching Credential                            
+ST27GSpecial Secondary Teaching Credential in Military Science and Tactics                
+ST28GSpecial Adult Education Teaching Credential in Designated Subjects                   
+ST29GSpecial Adult Education Teaching Credential in Lip Reading                           
+ST3 GSpecial Secondary Teaching Credential in Vocational Agriculture                      
+ST30GSpecial Adult Education Teaching Credential for Short Unit Courses                   
+ST31GSpecial Secondary Vocational Class D Teaching Credential                             
+ST32GSpecial Secondary Vocational Teaching Credential in Business Subjects                
+ST33GSpecial Secondary Credential for Teaching the Mentally Retarded                      
+ST34GSpecial Credential for Teaching Exceptional Children                                 
+ST35GSpecial Secondary Teaching Credential                                                
+ST36GSpecial Secondary Exchange                                                           
+ST4 GSpecial Secondary Limited Teaching Credential in Designated Subjects                 
+ST5 GSpecial Secondary Teaching Credential in Business Education                          
+ST6 GSpecial Secondary Limited Teaching Credential in Vocational Business                 
+ST7 GSpecial Secondary Teaching Credential for Teaching the Blind                         
+ST8 GSpecial Secondary Teaching Credential for Teaching the Deaf                          
+ST9 GSpecial Secondary Teaching Credential in Homemaking                                  
+STCASStandard Elementary Teaching Credential                                              
+STCBSStandard Secondary Teaching Credential                                               
+STCCSStandard Early Childhood Education Teaching Credential                               
+STCDSStandard Junior College Teaching Credential                                          
+STCESStandard Limited Specialized Preparation Teaching Credential                         
+STCFSStandard Restricted Special Education Teaching Credential                            
+STCGSMiscellaneous Credentials                                                            
+SUB   30-Day Substitute Teaching Credential                                               
+SUB9 30-Day Substitute Based on 90 Semester Hours                                         
+SUBBR30-Day Substitute Teaching Credential                                                
+SUBCRCareer Substitute Teaching Permit                                                    
+SUBER30-Day Substitute Designated Subjects Career Technical Education Permit              
+SUBPR30-Day Substitute Teaching Permit                                                    
+SUBTRSubstitute Teaching Permit for Prospective Teachers                                  
+SUBVR30-Day Substitute Designated Subjects Vocational Education Permit                    
+SUBWRSubstitute Teaching Credential Based on Board of Ed Waiver                           
+TAL RTeacher Assistant License                                                            
+TC1 RSingle Subject Teaching Credential                                                   
+TC10RDistrict Intern Credential                                                           
+TC11RPre-Intern Certificate                                                               
+TC12RSpecial Temporary Certificate                                                        
+TC13RShort-Term Staff Permit                                                              
+TC14RProvisional Internship Permit                                                        
+TC15RSpecialist Teaching Permit in Early Childhood Education                              
+TC1LRLimited Assignment Authorization                                                     
+TC1PRSingle Subject Teaching Permit                                                       
+TC1SRSupplementary Authorization to a Teaching Credential                                 
+TC2 RMultiple Subject Teaching Credential                                                 
+TC2PRMultiple Subject Teaching Permit                                                     
+TC2SRSupplementary Authorization to a Teaching Credential                                 
+TC3ARSpecialist Instruction Credential (Agriculture)                                      
+TC3BRSpecialist Instruction Credential in Bilingual Crosscultural Education               
+TC3CRSpecialist Instruction Credential (Early Childhood Education)                        
+TC3DRSpecialist Instruction Credential (Gifted Education)                                 
+TC3ERSpecialist Instruction Credential (Health Science)                                   
+TC3FRSpecialist Instruction Credential (Mathematics)                                      
+TC3GRSpecialist Instruction Credential (Reading)                                          
+TC3HRSpecialist Instruction Credential in Special Education                               
+TC3PRSpecialist Instruction Permit in Special Education                                   
+TC3QREducation Specialist Instruction Permit                                              
+TC3SREducation Specialist Instruction Credential                                          
+TC4ARDesignated Subjects Adult Education Teaching Credential: Full Time                   
+TC4BRDesignated Subjects Adult Education Teaching Credential: Regular                     
+TC4C Adult Education: Limited-use ID Notes                                                
+TC4DRDesignated Subjects Adult Education Teaching Credential: Full Time                   
+TC4ERDesignated Subjects Adult Education Teaching Credential: Part Time                   
+TC4FRDesignated Subjects Vocational Education Teaching Credential: Full Time              
+TC4GRDesignated Subjects Vocational Education Teaching Credential: Part Time              
+TC4HRPart Time Designated Subjects Career Technical Education Teaching Credential         
+TC4JRDesignated Subjects Adult Education Teaching Credential: Part Time                   
+TC4PRDesignated Subjects Vocational Education Teaching Credential: Part Time              
+TC4SRDesignated Subjects Special Subjects Teaching Credential                             
+TC4TRFull Time Designated Subjects Career Technical Education Teaching Credential         
+TC4VRDesignated Subjects Vocational Education Teaching Credential: Full Time              
+TC5 REminence Teaching Credential                                                         
+TC6  Child Development Programs Permit                                                    
+TC6A Children's Center Permit                                                             
+TC7 RExchange Certificated Employee Teaching Credential                                   
+TC8 RSojourn Certificated Employee Teaching Credential                                    
+TC9 RTeacher Trainee Certificate                                                          
+TCMSRMultiple Subject Teaching Credential                                                 
+TCSSRSingle Subject Teaching Credential                                                   
+TLA1RGeneral Education Limited Assignment Single Subject Teaching Permit                  
+TLA2RGeneral Education Limited Assignment Multiple Subject Teaching Permit                
+TLA3RSpecial Education Limited Assignment Teaching Permit                                 
+TPSLRTeaching Permit for Statutory Leave                                                  
+UN25 Courtesy Renewal                                                                     
+UNKNRUnknown                                                                              
+VFC RVisiting Faculty Single Subject Teaching Credential                                  
+VFP RVisiting Faculty Teaching Permit                                                     

@@ -1,0 +1,332 @@
+#ARC  AMERICAN RIVER COLLEGE                                                          
+#CC   CABRILLO COLLEGE                                                                
+#CCSF CITY COLLEGE OF SAN FRANCISCO                                                   
+#CHC  CHABOT COLLEGE                                                                  
+#COR  COLLEGE OF THE REDWOODS                                                         
+#DAI  DEVELOPMENT ASSOCIATES, INC.                                                    
+#GC   GROSSMONT COLLEGE                                                               
+#LPC  LAS POSITAS COLLEGE                                                             
+#MC   MOORPARK COLLEGE                                                                
+#MJC  MODESTO JUNIOR COLLEGE                                                          
+#MSAC MT. SAN ANTONIO COLLEGE                                                         
+#MTCS MONTESSORI TEACHERS COLLEGE - SACRAMENTO                                        
+#POC  PACIFIC OAKS COLLEGE                                                            
+#SC   SADDLEBACK COLLEGE                                                              
+#SCC  SACRAMENTO CITY COLLEGE                                                         
+#SFBA SAN FRANCISCO BAY AREA MONTESSORI                                               
+#SJSU SAN JOSE STATE UNIVERSITY                                                       
+#SRJR SANTA ROSA JUNIOR COLLEGE                                                       
+#UCRX U.C. RIVERSIDE EXTENSION                                                        
+#UL   UNIVERSITY OF LA VERNE                                                          
+101   ANTIOCH UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+103   BUTTE COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                         
+104   YOLO/SOLANO BTSA INDUCTION PROGRAM                                              
+105   EL DORADO COUNTY OFFICE OF EDUCATION  BTSA INDUCTION PROGRAM                    
+106   ELK GROVE UNIFIED SCHOOL DISTRICT  BTSA INDUCTION PROGRAM                       
+107   FAIRFIELD/SUISUN UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+108   FAR EAST CONTRA COSTA BTSA INDUCTION PROGRAM CONSORTIUM                         
+109   LODI UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                             
+110   MARIN COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                         
+111   NAPA COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                          
+112   NORTH COAST BEGINNING TEACHER BTSA INDUCTION PROGRAM                            
+113   NORTH STATE BTSA INDUCTION PROGRAM                                              
+114   PLACER COUNTY BTSA INDUCTION PROGRAM                                            
+115   SACRAMENTO BTSA CONSORTIUM INDUCTION PROGRAM                                    
+116   SACRAMENTO CITY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                  
+117   SAN JUAN UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+118   SANTA ROSA CITY SCHOOLS BTSA INDUCTION PROGRAM                                  
+119   STOCKTON UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+120   TRACY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                            
+121   TRI COUNTY BTSA INDUCTION PROGRAM                                               
+123   VALLEJO CITY/SOLANO COUNTY BTSA INDUCTION PROGRAM                               
+124   WEST CONTRA COSTA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                
+125   WASHINGTON UNIFIED SCHOOL DISTRICT BTSA                                         
+14    INYO COUNTY OFFICE OF EDUCATION                                                 
+203   CAMPBELL UNION ELEM SD/OAK GROVE SD BTSA INDUCTION PROGRAM                      
+204   CONTRA COSTA COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                  
+205   EAST BAY BTSA INDUCTION PROGRAM CONSORTIUM                                      
+206   FREMONT UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+207   HAYWARD UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+208   MILPITAS UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+209   MCOE TEACHER CREDENTIALING PROGRAM/BTSA                                         
+210   MT. DIABLO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+211   NEW HAVEN UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+212   OAKLAND UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+213   PALO ALTO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+214   REDWOOD CITY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                             
+215   SAN FRANCISCO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                    
+216   SAN JOSE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+218   SAN LUIS OBISPO COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM               
+219   SAN MATEO COE BTSA (PENINSULA NEW TEACHER PROJECT) INDUCTION PROGRAM            
+222   SAN RAMON VALLEY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+223   SANTA BARBARA COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                 
+225   SANTA CLARA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                      
+226   SANTA CRUZ NEW TEACHER PROJECT BTSA INDUCTION PROGRAM                           
+227   SEQUOIA UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+228   VENTURA COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                       
+229   EVERGREEN ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+230   TRIVALLEY TEACHER INDUCTION PROGRAM                                             
+231   CONEJO VALLEY UNIFIED SCHOOL DISTRICT                                           
+232   ASPIRE PUBLIC SCHOOLS BTSA                                                      
+233   SAN MATEO-FOSTER CITY SCHOOL DISTRICT                                           
+234   BAY AREA SCHOOL OF ENTERPRISE, REACH                                            
+235   ENVISION BTSA                                                                   
+236   CUPERTINO UNION SCHOOOL DISTRICTION - INDUCTION                                 
+237   OAK GROVE NEW TEACHER INDUCTION                                                 
+30    ORANGE COUNTY OFFICE OF EDUCATION                                               
+301   BAKERSFIELD CITY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+302   CENTRAL UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+303   CLOVIS UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+304   FRESNO COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                        
+305   FRESNO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+306   GREENFIELD UNION SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+307   KERN COUNTY SUPERINTENDENT OF SCHOOLS BTSA INDUCTION PROGRAM                    
+308   KERN HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                                
+309   KINGS COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                         
+31    PLACER COUNTY OFFICE OF EDUCATION                                               
+310   MADERA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+311   MANTECA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+312   MERCED COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                        
+313   MODESTO CITY BTSA INDUCTION PROGRAM                                             
+314   PANAMA-BUENA VISTA UNION SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+315   SAN JOAQUIN COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                   
+316   SELMA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                            
+317   STANISLAUS COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                    
+318   TULARE CITY ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                   
+319   TULARE COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                        
+320   VISALIA UNIFIED BTSA                                                            
+321   HANFORD ELEMENTARY SCHOOL DISTRICT INDUCTION PROGRAM                            
+322   MERCED UNION HIGH SCHOOL DISTRICT BTSA                                          
+323   DOS PALOS ORO LOMA JOINT UNIFIED SCHOOL BTSA                                    
+324   SANGER UNIFIED BTSA                                                             
+325   LOS BANOS UNIFIED BTSA                                                          
+33    RIVERSIDE COUNTY OFFICE OF EDUCATION                                            
+36    SAN BERNARDINO COUNTY OFFICE OF EDUCATION                                       
+37    SAN DIEGO COUNTY OFFICE OF EDUCATION                                            
+39    SAN JOAQUIN COUNTY OFFICE OF EDUCATION                                          
+40    SAN LUIS OPISPO COUNTY OFFICE OF EDUCATION                                      
+401   ALHAMBRA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+402   AZUSA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                            
+403   BALDWIN PARK UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+404   BELLFLOWER UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+405   BURBANK UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+407   CULVER CITY/BEVERLY HILLS BTSA INDUCTION PROGRAM                                
+408   DOWNEY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+409   GLENDALE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+41    SAN MATEO COUNTY OFFICE OF EDUCATION                                            
+410   HACIENDA LA PUENTE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM               
+411   LAWNDALE/LENNOX/HAWTHORN/CENT VALLEY BTSA INDUCTION PROGRAM CONSORTIUM          
+412   LONG BEACH UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+413   LOS ANGELES COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM                   
+414   LOS ANGELES UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                      
+416   SOUTH BAY BTSA INDUCTION PROGRAM CONSORTIUM                                     
+417   MONTEBELLO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+418   NORWALK-LAMIRADA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+419   PASADENA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+420   POMONA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+421   ROWLAND UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+422   SAN GABRIEL UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                      
+423   SANTA CLARITA VALLEY BTSA INDUCTION PROGRAM CONSORTIUM                          
+424   SANTA MONICA-MALIBU UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM              
+425   TEMPLE CITYARCADIA/DUARTE BTSA INDUCTION PROGRAM CONSORTIUM                     
+426   TORRANCE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                         
+427   FOOTHILL CONSORTIUM                                                             
+428   WALNUT VALLEY BTSA INDUCTION CONSORTIUM                                         
+429   HART UNION HSD BTSA INDUCTION PROGRAM                                           
+430   EL RANCHO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+431   PARAMOUNT UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+432   CASTAIC SCHOOL DISTRICT BTSA INDUCTION PROGRAM                                  
+433   LOS ANGELES UNIFIED SCHOOL DISTRICT / DISTRICT INTERN BTSA INDUCTION PROGRAM    
+434   COMPTON UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+435   ARCADIA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+436   INNER CITY EDUCATION FOUNDATION                                                 
+437   PARTNERSHIPS TO UPLIFT COMMUNITIES                                              
+501   ANAHEIM CITY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                             
+502   ANAHEIM UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+504   CAPISTRANO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+505   CHULA VISTA ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                   
+506   EAST COUNTY CONSORTIUM BTSA INDUCTION PROGRAM                                   
+507   ESCONDIDO UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+508   ESCONDIDO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+509   FULLERTON JT. UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+510   GROSSMONT UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+511   IMPERIAL COUNTY OFFICE OF EDUCATION BTSA INDUCTION PROGRAM CONSORTIUM           
+512   LAMESA-SPRING VALLEY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+513   NEWPORT-MESA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+514   NORTH COASTAL CONSORTIUM BTSA INDUCTION PROGRAM                                 
+515   NORTH COUNTY PDF BTSA INDUCTION PROGRAM                                         
+516   NORTH ORANGE COUNTY BTSA INDUCTION PROGRAM                                      
+517   OCEANSIDE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+518   ORANGE COUNTY DEPARTMENT OF EDUCATION BTSA INDUCTION PROGRAM                    
+519   ORANGE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+520   PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM            
+521   POWAY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                            
+522   SAN DIEGO USD TEACHER PREPARATION AND INDUCTION                                 
+524   SAN DIEGUITO UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                  
+525   SAN DIEGO SOUTH COUNTY BTSA INDUCTION                                           
+526   SWEETWATER UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                    
+527   TUSTIN UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+528   SADDLEBACK VALLEY BTSA INDUCTION PROGRAM                                        
+529   VISTA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                            
+530   WEST ORANGE COUNTY BTSA INDUCTION PROGRAM CONSORTIUM                            
+531   SAN MARCOS UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                       
+532   GARDEN GROVE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+533   SANTA ANA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+534   ORANGE COUNTY HIGH SCHOOL OF THE ARTS (OCHSA)                                   
+535   IRVINE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+536   SCHOOLS FOR INTEGRATED ACADEMICS TECHNOLOGY                                     
+537   HIGH TECH HIGH LEARNING                                                         
+56    VENTURA COUNTY OFFICE OF EDUCATION                                              
+601   ANTELOPE VALLEY UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM               
+602   CHAFFEY JOINT UNION HIGH SCHOOL DISTRICT BTSA INDUCTION PROGRAM                 
+603   CHINO VALLEY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+604   CORONA-NORCO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+605   ETIWANDA SCHOOL DISTRICT BTSA INDUCTION PROGRAM                                 
+606   FONTANA UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+607   KEPPEL UNION ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                  
+608   LANCASTER ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                     
+609   ONTARIO-MONTCLAIR SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+610   PALMDALE ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                      
+611   RIALTO UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                           
+612   RIMS BTSA INDUCTION RIVERSIDE COE PROGRAM                                       
+613   RIVERSIDE UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM                        
+614   SAN BERNARDINO CITY UNIFIED SCHOOL DISTRICT BTSA INDUCTION PROGRAM              
+615   WESTSIDE UNION ELEMENTARY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                
+616   MURRIETA VALLEY SCHOOL DISTRICT BTSA INDUCTION PROGRAM                          
+618   ACADEMY OF ART UNIVERSITY                                                       
+64667 LANCASTER SCHOOL DISTRICT                                                       
+64725 LONG BEACH UNIFIED SCHOOL DISTRICT                                              
+68338 SAN DIEGO UNIFIED SCHOOL DISTRICT                                               
+999   TEST ORG                                                                        
+ACCD  ART CENTER COLLEGE OF DESIGN                                                    
+AIU   ALLIANT INTERNATIONAL UNIVERSITY                                                
+AIUA  ALLIANT INTERNATIONAL UNIVERSITY (FORMERLY U.S. INTERNATIONAL UNIVERSITY)       
+APU   AZUSA PACIFIC UNIVERSITY                                                        
+AU    ARGOSY UNIVERSITY                                                               
+AUO   ARGOSY UNIVERSITY, CALIFORNIA                                                   
+AUSC  ANTIOCH UNIVERSITY OF SOUTHERN CALIFORNIA                                       
+AUSCL ANTIOCH UNIVERSITY OF SOUTHERN CALIFORNIA - LOS ANGELES                         
+AUSCS ANTIOCH UNIVERSITY OF SOUTHERN CALIFORNIA - SANTA BARBARA                       
+BARD  BARD COLLEGE                                                                    
+BCAG  BETHANY COLLEGE OF THE ASSEMBLIES OF GOD                                        
+BRC   BOSTON REED COLLEGE                                                             
+BRU   BRANDMAN UNIVERSITY                                                             
+BU    BIOLA UNIVERSITY                                                                
+BUSC  BETHANY UNIVERSITY SANTA CRUZ                                                   
+CBU   CALIFORNIA BAPTIST UNIVERSITY                                                   
+CCAC  CALIFORNIA COLLEGE OF THE ARTS                                                  
+CGU   CLAREMONT GRADUATE UNIVERSITY                                                   
+CHC   CHRISTIAN HERITAGE COLLEGE                                                      
+CIA   CALIFORNIA INSTITUTE OF THE ARTS                                                
+CIT   CALIFORNIA INSTITUTE OF TECHNOLOGY                                              
+CLMER CENTER FOR LANGUAGE, MINORITY EDUC & RESEARCH -- CSU LONG BEACH                 
+CLU   CALIFORNIA LUTHERAN UNIVERSITY                                                  
+CPP   POMONA, CSPU                                                                    
+CPSLO SAN LUIS OBISPO, CPSU                                                           
+CSTCH CALSTATE TEACH                                                                  
+CSUB  BAKERSFIELD, CSU                                                                
+CSUC  CHICO, CSU                                                                      
+CSUCI CHANNEL ISLANDS, CSU                                                            
+CSUDH DOMINGUEZ HILLS, CSU                                                            
+CSUEB EAST BAY, CSU                                                                   
+CSUFR FRESNO, CSU                                                                     
+CSUFU FULLERTON, CSU                                                                  
+CSUH  HAYWARD, CSU                                                                    
+CSULA LOS ANGELES, CSU                                                                
+CSULB LONG BEACH, CSU                                                                 
+CSULBDLONG BEACH, CSU -- DESIGNATED SUBJ                                              
+CSULBSLONG BEACH, CSU -- SINGLE SUBJECT                                               
+CSUMB MONTEREY BAY, CSU                                                               
+CSUN  NORTHRIDGE, CSU                                                                 
+CSUSA SACRAMENTO, CSU                                                                 
+CSUSB SAN BERNARDINO, CSU                                                             
+CSUSM SAN MARCOS, CSU                                                                 
+CSUST STANISLAUS, CSU                                                                 
+CTA   CALIFORNIA TEACHERS ASSOCIATION                                                 
+CU    CHAPMAN UNIVERSITY                                                              
+CUI   CONCORDIA UNIVERSITY                                                            
+CULA  CITY UNIVERSITY                                                                 
+DUCS  DOMINICAN UNIVERSITY OF CALIFORNIA                                              
+DUCU  DOMINICAN UNIVERSITY OF CALIFORNIA                                              
+FGU   FIELDING GRADUATE UNIVERSITY                                                    
+FPU   FRESNO PACIFIC UNIVERSITY                                                       
+GGU   GOLDEN GATE UNIVERSITY                                                          
+HC    HUMPHREYS UNIVERSITY                                                            
+HIU   HOPE INTERNATIONAL UNIVERSITY                                                   
+HNU   HOLY NAMES UNIVERSITY                                                           
+HSU   HUMBOLDT STATE UNIVERSITY                                                       
+HUC   HEBREW UNION COLLEGE                                                            
+JFKU  JOHN F. KENNEDY UNIVERSITY                                                      
+LCAD  LAGUNA COLLEGE OF ART & DESIGN                                                  
+LLU   LOMA LINDA UNIVERSITY                                                           
+LMU   LOYOLA MARYMOUNT UNIVERSITY                                                     
+LPC   LIFE PACIFIC COLLEGE                                                            
+LSU   LA SIERRA UNIVERSITY                                                            
+MC    MILLS COLLEGE                                                                   
+MENLO MENLO COLLEGE                                                                   
+MSMC  MOUNT SAINT MARY'S COLLEGE                                                      
+NCC   NEW COLLEGE OF CALIFORNIA                                                       
+NDNU  NOTRE DAME DE NAMUR UNIVERSITY                                                  
+NHU   NATIONAL HISPANIC UNIVERSITY                                                    
+NSULA NOVA SOUTHEASTERN UNIVERSITY                                                    
+NU    NATIONAL UNIVERSITY                                                             
+NUSD  NATIONAL UNIVERSITY - SAN DIEGO REGION                                          
+OC    OCCIDENTAL COLLEGE                                                              
+OCAD  OTIS COLLEGE OF ART AND DESIGN                                                  
+PC    PITZER COLLEGE                                                                  
+PGI   PHILLIPS GRADUATE INSTITUTE                                                     
+PLNU  POINT LOMA NAZARENE UNIVERSITY (TEACHING)                                       
+PLNUA POINT LOMA NAZARENE UNIVERSITY - ARCADIA                                        
+PLNUB POINT LOMA NAZARENE UNIVERSITY - BAKERSFIELD                                    
+PLNUC POINT LOMA NAZARENE UNIVERSITY (CREDENTIALING)                                  
+POC   PACIFIC OAKS COLLEGE                                                            
+PU    PATTEN UNIVERSITY                                                               
+PUC   PACIFIC UNION COLLEGE                                                           
+PULA  PEPPERDINE - LOS ANGELES                                                        
+PUM   PEPPERDINE - MALIBU                                                             
+SCU   SANTA CLARA UNIVERSITY                                                          
+SDCC  SAN DIEGO CHRISTIAN COLLEGE                                                     
+SDSUI SAN DIEGO STATE UNIVERSITY - IMPERIAL VALLEY CAMPUS                             
+SDSUS SAN DIEGO STATE UNIVERSITY                                                      
+SFAI  SAN FRANCISCO ART INSTITUTE                                                     
+SFSU  SAN FRANCISCO STATE UNIVERSITY                                                  
+SFTS  SAN FRANCISCO THEOLOGICAL SEMINARY                                              
+SIU   SIMPSON UNIVERSITY                                                              
+SJSU  SAN JOSE STATE UNIVERSITY                                                       
+SMCC  SAINT MARY'S COLLEGE                                                            
+SMU   SAMUEL MERRITT UNIVERSITY                                                       
+SSU   SONOMA ST. U.                                                                   
+SU    STANFORD UNIVERSITY                                                             
+TMC   THE MASTER'S COLLEGE                                                            
+TU    TOURO UNIVERSITY                                                                
+UCB   UC BERKELEY                                                                     
+UCBX  UC BERKELEY EXTENSION                                                           
+UCD   UC DAVIS                                                                        
+UCI   UC IRVINE                                                                       
+UCIX  UC IRVINE EXTENSION                                                             
+UCLA  UC LOS ANGELES                                                                  
+UCLAX UC LOS ANGELES EXTENSION                                                        
+UCM   UC MERCED                                                                       
+UCR   UC RIVERSIDE                                                                    
+UCRX  UNIVERSITY OF CALIFORNIA RIVERSIDE EXTENSION                                    
+UCRX  UC RIVERSIDE EXTENSION                                                          
+UCSB  UC SANTA BARBARA                                                                
+UCSC  UC SANTA CRUZ                                                                   
+UCSCX UC SANTA CRUZ & EXTENSION                                                       
+UCSD  UC SAN DIEGO                                                                    
+UCSDX UC SAN DIEGO EXTENSION                                                          
+UCSF  UC SAN FRANCISCO                                                                
+UL    UNIVERSITY OF LA VERNE                                                          
+UOP   UNIVERSITY OF THE PACIFIC                                                       
+UPH   UNIVERSITY OF PHOENIX                                                           
+UR    UNIVERSITY OF REDLANDS                                                          
+USC   UNIVERSITY OF SOUTHERN CALIFORNIA                                               
+USD   UNIVERSITY OF SAN DIEGO                                                         
+USF   UNIVERSITY OF SAN FRANCISCO                                                     
+USU   UNITED STATES UNIVERSITY                                                        
+VU    VANGUARD UNIVERSITY                                                             
+WEC   WESTMONT COLLEGE                                                                
+WGU   WESTERN GOVERNORS UNIVERSITY                                                    
+WHC   WHITTIER COLLEGE                                                                
+WJU   WILLIAM JESSUP UNIVERSITY                                                       
+WSU   WESTERN STATE UNIVERSITY COLLEGE OF LAW                                         

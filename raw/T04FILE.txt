@@ -1,0 +1,64 @@
+2LLevel 1                                                               
+2Y
+3LLevel 1                                                               
+AL
+APAppeal                                                                
+C2Clear                                                                 
+C8Clear                                                                 
+CC
+CDChild Development Permit                                              
+CECertificate of Eligibility                                            
+CLClear                                                                 
+CPClear                                                                 
+CVEmergency                                                             
+CXChild Development Exchange                                            
+DLDependent Life                                                        
+E22 yr Extension of PC's and CDP's                                      
+EBEmergency Long Term                                                   
+ECTC11 Education Specialist with CLAD                                   
+EMEmergency                                                             
+INIntern                                                                
+L1Level I                                                               
+L2Level II                                                              
+LAEmergency Limited Assignment                                          
+LBLimited Assignment                                                    
+LEPreliminary                                                           
+LFLife                                                                  
+LILimited                                                               
+LPLevel I                                                               
+LRLevel I                                                               
+LTEmergency Long Term                                                   
+MBMultiple Subject w/BCLAD TC10 and TC11                                
+MCMultiple Subject w/CLAD TC11                                          
+MLMultiple Subject w/EL TC10                                            
+MSMultiple Subject TC10, TC11 and TC12                                  
+MT
+NANot Applicable                                                        
+OYOne-year Nonrenewable                                                 
+P1Preliminary                                                           
+P2Preliminary                                                           
+P3Preliminary                                                           
+P4Preliminary                                                           
+P5Preliminary                                                           
+PAPartial                                                               
+PCProfessional Clear                                                    
+PK
+POProvisional                                                           
+PPPostponement                                                          
+PRProfessional                                                          
+R1Preliminary                                                           
+R5Preliminary                                                           
+RGRegular                                                               
+SBSingle Subject w/BCLAD TC10 and TC11                                  
+SCSingle Subject w/CLAD TC11                                            
+SESpecial Education TC10, TC11 and TC12                                 
+SLSingle Subject w/EL TC10                                              
+SSSingle Subject TC10, TC11 and TC12                                    
+SYSchool Year                                                           
+TL
+UNUnknown                                                               
+V1
+WBState Board Waiver Sanctioned                                         
+WVWaiver                                                                
+XAThree-year Probationary Preliminary                                   
+XPDocuments that are no longer issued which previously had no term      

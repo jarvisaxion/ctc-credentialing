@@ -1,0 +1,60 @@
+00NOT-APPLICABLE 
+01ALAMEDA        
+02ALPINE         
+03AMADOR         
+04BUTTE          
+05CALAVERAS      
+06COLUSA         
+07CONTRA COSTA   
+08DEL NORTE      
+09EL DORADO      
+10FRESNO         
+11GLENN          
+12HUMBOLDT       
+13IMPERIAL       
+14INYO           
+15KERN           
+16KINGS          
+17LAKE           
+18LASSEN         
+19LOS ANGELES    
+20MADERA         
+21MARIN          
+22MARIPOSA       
+23MENDOCINO      
+24MERCED         
+25MODOC          
+26MONO           
+27MONTEREY       
+28NAPA           
+29NEVADA         
+30ORANGE         
+31PLACER         
+32PLUMAS         
+33RIVERSIDE      
+34SACRAMENTO     
+35SAN BENITO     
+36SAN BERNARDINO 
+37SAN DIEGO      
+38SAN FRANCISCO  
+39SAN JOAQUIN    
+40SAN LUIS OBISPO
+41SAN MATEO      
+42SANTA BARBARA  
+43SANTA CLARA    
+44SANTA CRUZ     
+45SHASTA         
+46SIERRA         
+47SISKIYOU       
+48SOLANO         
+49SONOMA         
+50STANISLAUS     
+51SUTTER         
+52TEHAMA         
+53TRINITY        
+54TULARE         
+55TUOLUMNE       
+56VENTURA        
+57YOLO           
+58YUBA           
+59LOS ANGELES UNI

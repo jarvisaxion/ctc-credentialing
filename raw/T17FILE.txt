@@ -1,0 +1,28 @@
+09   EL DORADO COUNTY                                  
+10   FRESNO COUNTY                                     
+20   MADERA COUNTY OFFICE OF EDUCATION                 
+21   MARIN COUNTY                                      
+24   MERCED COUNTY                                     
+27   MONTEREY COUNTY                                   
+30   ORANGE COUNTY                                     
+37   SAN DIEGO COUNTY OFFICE OF EDUCATION              
+39   SAN JOAQUIN COUNTY                                
+40   SAN LUIS OBISPO                                   
+42   SANTA BARBARA COUNTY                              
+50   STANISLAUS COUNTY                                 
+54   TULARE COUNTY                                     
+56   VENTURA COUNTY                                    
+ACSA ASSOCIATION OF CALIFORNIA  SCHOOL ADMINISTRATORS  
+BRC  BOSTON REED COLLEGE                               
+CELA CALIFORNIA EDUCATIONAL LEADERSHIP ALLIANCE        
+CPS  COOPERATIVE PERSONNEL SERVICES                    
+LPV  LA PUENTE VALLEY REGIONAL OCCUPATIONAL PROGRAM    
+NCCSENORTH COAST CONSORTIUM FOR SPECIAL EDUCATION      
+NES  EVALUATION SYSTEMS                                
+O    OTHER                                             
+SAIL STANDARD-ALLIED INSTRUCTIONAL LEADERSHIP          
+SDCOESAN DIEGO COUNTY OFFICE OF EDUCATION              
+SDSUSSAN DIEGO STATE UNIVERSITY                        
+SFUSDSAN FRANCISCO UNIFIED SCHOOL DISTRICT             
+UL   UNIVERSITY OF LAVERNE                             
+USC  UNIVERSITY OF SOUTHERN CALIFORNIA                 

@@ -1,0 +1,7 @@
+# Local-only / OS noise
+.DS_Store
+*.swp
+*.swo
+
+# Large binary PDFs are kept in raw/ for provenance but not needed in git
+# (keep them — they are the authoritative source snapshots)

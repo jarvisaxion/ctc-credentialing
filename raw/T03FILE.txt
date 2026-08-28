@@ -1,0 +1,17 @@
+AAADDED AUTHORIZATION                               
+ARADDED RESTRICTION                                 
+COCORRECTION                                        
+DPDUPLICATE                                         
+EXEXCHANGE                                          
+FTFIRST TIME                                        
+NA
+NCNAME CHANGE                                       
+NTNEW CREDENTIAL TYPE                               
+RAREMOVE AUTHORIZATION                              
+RIRE-ISSUANCE                                       
+RNRENEWAL                                           
+RPREPLACEMENT                                       
+RSREINSTATEMENT                                     
+SISINGLE INDUCTION                                  
+SRSLMS REINSTATEMENT                                
+UNUNKNOWN                                           
